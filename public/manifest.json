@@ -6,6 +6,15 @@
   "display": "standalone",
   "background_color": "#f4f6fb",
   "theme_color": "#3b4fd8",
+  "share_target": {
+    "action": "/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
   "icons": [
     {
       "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='24' fill='%233b4fd8'/%3E%3Ctext x='96' y='130' font-size='100' text-anchor='middle'%3E%F0%9F%9B%A1%3C/text%3E%3C/svg%3E",
